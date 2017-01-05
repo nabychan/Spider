@@ -4,7 +4,9 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "System.Xml.XmlDocument": "4.3.0"
+  },
   "frameworks": {
     "netcoreapp1.1": {
       "dependencies": {

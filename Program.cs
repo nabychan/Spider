@@ -10,12 +10,14 @@ namespace ConsoleApplication
             Console.WriteLine("==============");
             Console.WriteLine("开始。。。");
             Console.WriteLine("==============");
-            var start = 1;
-            for (; start <= 23; start++)
-            {
-                var imageSpider = new ImageSpider("http://img1.mm131.com/pic/2783/13.jpg", $"{start}");
-                imageSpider.Spide();
-            }
+            // var start = 1;
+            // for (; start <= 1; start++)
+            // {
+            //     var imageSpider = new ImageSpider("http://img1.mm131.com/pic/2783/13.jpg", $"{start}");
+            //     imageSpider.Spide();
+            // }
+            new ImageSpider("http://www.so.com","MacawFlight").Spide();
+            
             Console.WriteLine("==============");
             Console.WriteLine("结束。。。");
             Console.WriteLine("==============");
